@@ -3,7 +3,7 @@
  *
  * (c) 2021-present Amrayn Web Services
  *
- * This library is released under the MIT Licence.
+ * This library is released under the Apache-2.0 Licence.
  *
  * https://amrayn.com
  */
