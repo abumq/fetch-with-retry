@@ -1,0 +1,16 @@
+{
+  "name": "fetch-with-retry",
+  "version": "1.0.0",
+  "description": "Simple utility that retries when fetch() fails.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrayn/fetch-with-retry.git"
+  },
+  "author": "Amrayn Web Services <opensource@amrayn.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/amrayn/fetch-with-retry/issues"
+  },
+  "homepage": "https://github.com/amrayn/fetch-with-retry#readme"
+}
