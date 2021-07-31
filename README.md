@@ -32,7 +32,7 @@ yarn add fetch-with-retry
 ```
 
 ## Example
-```
+```js
 const fetch = require('fetch-with-retry')
 
 (async () => {
@@ -50,7 +50,16 @@ const fetch = require('fetch-with-retry')
   }
 })()
 
+```
 
+NOTE: If you want to log retry attempts, specify log function as third parameter, e.g,
+
+```js
+  fetchWithRetry('https://myworld.com/api/quote', {
+    headers: { 'Content-Type': 'application/json' },
+    retries: 5,
+    retryDelay: 500,
+  }, console.debug)
 ```
 
 ## License
