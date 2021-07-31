@@ -14,8 +14,8 @@ const fetchWithRetry = async (url, options = { retries: 1, retryDelay: 3000 }, d
 
   const { retries, retryDelay, ...restOpts } = options;
 
-  let attempts = Number(retries) || 1;
-  const delay = Number(retryDelay) || 0;
+  let attempts = Math.max(Number(retries) || 1, 1);
+  const delay = Math.max(Number(retryDelay) || 3000, 0);
 
   while (attempts) {
     attempts -= 1;
