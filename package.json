@@ -1,6 +1,6 @@
 {
   "name": "fetch-with-retry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple utility that retries when fetch() fails.",
   "main": "index.js",
   "repository": {
