@@ -12,9 +12,6 @@ Fetch with retry is simple utility that retries when `fetch()` fails. You must h
   <a aria-label="License" href="https://github.com/amrayn/fetch-with-retry/blob/master/LICENSE">
     <img alt="" src="https://img.shields.io/npm/l/fetch-with-retry?style=for-the-badge&labelColor=000000">
   </a>
-  <a aria-label="Donate via PayPal" href="https://amrayn.com/donate">
-    <img alt="" src="https://img.shields.io/static/v1?label=Donate&message=PayPal&color=purple&style=for-the-badge&labelColor=000000">
-  </a>
 </p>
 
 <p align="center">
@@ -64,10 +61,7 @@ NOTE: If you want to log retry attempts, specify log function as third parameter
 
 ## License
 ```
-Copyright (c) 2021-present Amrayn Web Services
-
-https://github.com/amrayn/
-https://amrayn.com
+Copyright (c) 2021-present @abumq (Majid Q.)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
