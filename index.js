@@ -1,13 +1,3 @@
-/**
- * Bismillah ar-Rahmaan ar-Raheem
- *
- * (c) 2021-present Amrayn Web Services
- *
- * This library is released under the Apache-2.0 Licence.
- *
- * https://amrayn.com
- */
-
 const snooze = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const fetchWithRetry = async (url, options = { retries: 1, retryDelay: 3000 }, debugLog) => {
